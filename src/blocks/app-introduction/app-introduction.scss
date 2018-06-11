@@ -1,0 +1,34 @@
+:host {
+  padding: 130px 0;
+
+  &__title {
+    font-size: 44px;
+    color: #73879c;
+    text-align: center;
+  }
+
+  &__desc {
+    color: #73879c;
+    font-size: 22px;
+    text-align: center;
+    padding: 0 auto 82px;
+  }
+
+  &__item {
+    margin: 0 25px;
+    color: #73879c;
+  }
+
+  &__article-icon {
+    font-size: 40px;
+  }
+
+  &__article-title {
+    font-size: 26px;
+    margin-top: 0;
+  }
+
+  &__article-desc {
+    font-size: 16px;
+  }
+}
