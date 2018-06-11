@@ -1,0 +1,17 @@
+:host {
+  background: #00bc9c;
+  padding: 19px 27px;
+  display: inline-block;
+  font-weight: 700;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border-bottom: 2px solid #00a085;
+
+  &--big {
+    font-size: 18px;
+    padding: 25px 70px;
+  }
+}
