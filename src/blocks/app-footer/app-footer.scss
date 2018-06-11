@@ -1,0 +1,82 @@
+:host {
+  &__body {
+    background: #2f4054;
+    color: #fff;
+    padding: 75px 0;
+  }
+
+  &__widget {
+    padding: 10px;
+  }
+
+  &__widget-title {
+    text-transform: uppercase;
+    margin-top: 0;
+  }
+
+  &__widget-content {
+
+    &--photo {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -3px;
+    }
+  }
+
+  &__widget-content-logo {
+    font-size: 40px;
+    margin: 0 0 15px 0;
+  }
+
+  &__widget-content-link {
+    color: #888;
+    text-decoration: none;
+  }
+
+  &__widget-content-photo-item {
+    flex: 2;
+    padding: 3px;
+  }
+
+  &__widget-content-contact {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  &__footer {
+    background: #2a3646;
+    color: #fff;
+    padding: 35px 0;
+  }
+
+  &__copyright {
+    margin: 0;
+  }
+
+  &__navigation {
+    text-align: right;
+  }
+
+  &__navigation-link {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+  }
+
+  &__navigation-link::after {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    right: -9px;
+    top: 50%;
+    background: #fff;
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+}
