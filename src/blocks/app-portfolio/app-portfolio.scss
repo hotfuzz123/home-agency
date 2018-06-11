@@ -1,0 +1,65 @@
+:host {
+  background: #f1f4f9;
+  padding: 135px 0;
+  text-align: center;
+
+  &__title {
+    font-size: 44px;
+    color: #73879c;
+    text-align: center;
+    margin: 0;
+  }
+
+  &__desc {
+    color: #73879c;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__projects {
+    margin-bottom: 80px;
+  }
+
+  &__project {
+    margin: 0 15px;
+    background: #fff;
+  }
+
+  &__project-image {
+    width: 100%;
+  }
+
+  &__project-text {
+    padding: 20px;
+  }
+
+  &__project-text-title {
+    margin: 0 0 20px 0;
+  }
+
+  &__carousel-item {
+    margin: 0 15px;
+  }
+
+  &__carousel-image {
+    width: 100%;
+  }
+
+  &__carousel-controls {
+    margin-top: 45px;
+  }
+
+  &__carousel-control {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #436082;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+
+  &__carousel-control--active {
+    background: green;
+  }
+}
