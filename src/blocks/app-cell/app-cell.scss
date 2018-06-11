@@ -1,0 +1,11 @@
+:host {
+  flex: 1;
+
+  &--3-col {
+    flex: 3;
+  }
+
+  &--img {
+    padding: 0 30px;
+  }
+}
