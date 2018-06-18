@@ -10,9 +10,11 @@
   "rules": {
     "indentation": 2,
     "selector-max-id": 0,
+    "comment-empty-line-before": null,
     "no-descending-specificity": null,
     "selector-max-compound-selectors": 2,
     "declaration-empty-line-before": "never",
+    "no-missing-end-of-source-newline": "never",
     "block-opening-brace-newline-after": "always",
     "block-closing-brace-newline-before": "always",
     "unit-whitelist": [ "em", "rem", "deg", "vh", "vw", "%", "s", "px" ],
